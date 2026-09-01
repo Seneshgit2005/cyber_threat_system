@@ -1,0 +1,7 @@
+# ============================================================
+# uploads/attachments/.htaccess
+# Block ALL direct HTTP access to uploaded files.
+# Files must be served exclusively through download_attachment.php
+# ============================================================
+Order Allow,Deny
+Deny from all
